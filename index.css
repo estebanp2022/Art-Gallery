@@ -69,6 +69,11 @@ p {
   font-size: 20px;
 }
 
+.btn:hover {
+  background-color: var(--custom);
+  transition: all 0.8s;
+}
+
 svg {
   background-color: var(--custom);
   width: 56px;
@@ -259,6 +264,11 @@ footer {
 @media (min-width: 1440px) {
   header {
     width: 1440px;
+  }
+
+  header,
+  .main-container {
+    margin-bottom: 180px;
   }
   .hero {
     display: flex;

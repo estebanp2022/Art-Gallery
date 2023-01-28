@@ -92,6 +92,11 @@ svg {
   padding-left: 25px;
 }
 
+.btn:hover {
+  background-color: var(--custom);
+  transition: all 0.8s;
+}
+
 .container {
   width: 100%;
 }
